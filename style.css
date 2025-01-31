@@ -192,3 +192,14 @@ h3 {
 .autocomplete-list li:hover {
   background-color: #f4f4f4;
 }
+  
+@media screen and (max-width: 800px) {
+  .main-section__wrapper {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .main-section__box {
+      width: 90%;
+  }
+}
